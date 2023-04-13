@@ -8,7 +8,7 @@ provider "google" {
 # Create a GCS Bucket
 
 resource "google_storage_bucket" "mybucket" {
-  name     = "vishnubucket-<date>"
+  name     = "gurpreetbucket-<date>"
   location = "us-central1"
 }
 
